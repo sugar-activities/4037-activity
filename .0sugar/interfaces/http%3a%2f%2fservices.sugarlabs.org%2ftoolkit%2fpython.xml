@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='/interface.xsl'?>
+<interface uri="http://services.sugarlabs.org/toolkit/python.xml"
+           xmlns="http://zero-install.sourceforge.net/2004/injector/interface"
+           xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile"
+           xmlns:sugar="http://download.sugarlabs.org/services/saccharin/namespaces/0sugar">
+    <name>toolkit-python</name>
+    <summary>A set of first level widgets and misc components</summary>
+    <description>A set of first level widgets and misc components</description>
+    <homepage>http://wiki.sugarlabs.org/go/Activity_Team/Services/Toolkit</homepage>
+    <sugar:sibling interface="http://services.sugarlabs.org/toolkit/devel.xml"/>
+    <sugar:sibling interface="http://services.sugarlabs.org/toolkit"/>
+    <implementation id="sha1new=d9b5a1a1cdc6b27b33df80319721751b7f40d227"
+                    version="1-14"
+                    released="2010-02-13"
+                    arch="*-*"
+                    license="GPLv2+"
+                    stability="stable"
+                    sugar:commit="c36c27c5bac704487330ae25cde82065f06159bf">
+        <environment name="PYTHONPATH" mode="prepend" insert="python"/>
+        <archive href="http://download.sugarlabs.org/services/toolkit/toolkit-python-1-14.tar.bz2" size="19226"/>
+    </implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJLeTMwAAoJEHI8xbS2hpuBwlcH/2GGq5n77D+Ytb7e/2Jfq01ANy8LFszy1UeC
+slNAWwZK+5xKl6Lofsy1iFGpr7iEufEE9ZxxehNRWu+4SMg50FtzRHawE5UmfFPfvAObARTuEdjr
+n5LPBkltRebsr+iJa74BqPW/RcnwRASaaPHCmmuick+BBm2jNBuPJ/7hVtgXufaidzwZQU67AVGU
+FUpCzbuTP1STUuMir/IEiKPplOTXwrrps8YUnZU7hxQ9OnKh7h7+X3xBZOtmWcdxI26jzpJQkJql
+x+6S6v0G/oeO5/8orwrkEA2cQ1fgLy3gOZEcS/mbrsqwOCnQYK5UhhFuGYcTSVi1I1i5wQFyAmKl
+BlI=
+
+-->

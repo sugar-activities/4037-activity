@@ -1,0 +1,44 @@
+9
+
+* Remove redundant gst operations to suppress errors on XO-1
+* Update saccharin startup script
+
+8
+
+* Update saccharin to return 0.82 support
+
+7
+
+* Switch to Sugar Services to treat dependencies
+* Use new toolbar design in all supported sugars
+
+6
+
+* CartoonBuilder fails to launch #1569
+* Add translation for es, fr, nl and vi
+
+5
+
+* Add filter to ObjectChooser invoking
+
+4
+
+* Fix collab code
+
+3
+
+* Run activity in CM12 environment
+* Swtich to simplejson
+
+2
+
+* Support various screen resolutions
+* Use jobjects for characters, backgrounds and sounds
+* Fix OLPC#4742 Implement collaboration
+* Fix OLPC#6213 Crash on import image
+* Fix OLPC#9182 COPYING file is missed
+* Fix OLPC#8460 Cartoon-Builder-1 - "Keep error" msg on close
+
+1
+
+* Initial version (ed@whsd.net)

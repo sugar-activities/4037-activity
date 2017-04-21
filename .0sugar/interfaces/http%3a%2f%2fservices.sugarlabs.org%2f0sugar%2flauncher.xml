@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='/interface.xsl'?>
+<interface uri="http://services.sugarlabs.org/0sugar/launcher.xml"
+           xmlns="http://zero-install.sourceforge.net/2004/injector/interface"
+           xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile"
+           xmlns:sugar="http://download.sugarlabs.org/services/saccharin/namespaces/0sugar">
+    <name>0sugar-launcher</name>
+    <summary>Sugar Services packaging tools</summary>
+    <description>Sugar Services packaging tools</description>
+    <homepage>http://wiki.sugarlabs.org/go/Documentation_Team/Services</homepage>
+    <sugar:sibling interface="http://services.sugarlabs.org/0sugar/injector.xml"/>
+    <sugar:sibling interface="http://services.sugarlabs.org/0sugar"/>
+    <implementation id="sha1new=9b1f9619bb4fd4b3e821c181e5a75995998e286a"
+                    version="1-30"
+                    released="2010-02-19"
+                    arch="*-*"
+                    license="GPLv2+"
+                    stability="stable"
+                    main="0sugar-launch"
+                    sugar:commit="e973f7fd956a4ea039b2e9bf37bd5dffad82dbe2">
+        <archive href="http://download.sugarlabs.org/services/0sugar/0sugar-launcher-1-30.tar.bz2" size="450059"/>
+    </implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJLfjkuAAoJEHI8xbS2hpuBz6wIAKEZ+7PLEjGE9JOK+bJwUGaqydpXophzm3Uw
+z/iA9RcspX5T955oQkuRTDOk/hXSzTjA7TYziNCvcz73yp1Q7Brcv8atEf9Tun2I3sxG1Q3q9vJH
+4iHKbhDFu32+TrnW/yoUlLyAgOsqPBvpcRO8JmYKMZ6y8FvnHrxY7lxFK3AVJIDvkrmildk0jMGc
+GvynBqVB/kHZePeunOxqIMNVp4rinqNcuEhLAfLjdoYk5AyeQ4NzvoOcV1FN1g5cerbXvLYWhsIs
+46QCx8822eveCE8p4oP5fPV8tM59tOcHyOZ+Aw05TTROEa36fC0wnUCjqj65gBIDKswvSVgfL0/D
+Sag=
+
+-->
